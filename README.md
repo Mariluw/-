@@ -1,5 +1,7 @@
 # Пушкина Мария
-//Задание 1
+//Задание 1//
+
+
 package hangman;
 
 import java.util.Arrays;
@@ -156,9 +158,9 @@ public class HangmanGame {
         showGame();
         
         if (isWin()) {
-            System.out.println("\n🎉 Ура! Слово: " + word);
+            System.out.println("\n Ура! Слово: " + word);
         } else {
-            System.out.println("\n💀 Проиграл! Слово было: " + word);
+            System.out.println("\n Проиграл! Слово было: " + word);
         }
         
         sc.close();
